@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the page takes up at least the height of the viewport */
+  }
+  
+  header {
+    background-color: #fff;
+    color: black;
+    padding: 40px 0;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    border-bottom: 3px solid black;
+  }
+  
+  
+  .brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .cart {
+    position: absolute;
+    right: 20px;
+  }
+
+  .cart img {
+    width: 36px; /* Set the width of the cart icon */
+    height: auto; /* Maintain aspect ratio */
+    padding-right: 20px;
+  }
+  
+  main {
+    padding-top: 10px; /* Adjust based on header height and line thickness */
+    border-top: 2px solid #000000;
+    flex: 1; /* Allow main content to grow and push footer to the bottom */
+  }
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.text {
+    padding: 100px 0px;
+    text-align: center;
+}
+
+footer {
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #ccc;
+    font-weight: bold;
+  }
